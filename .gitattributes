@@ -1,0 +1,10 @@
+# Project-specific overrides
+node_modules/* linguist-vendored
+
+package-lock.json linguist-generated
+
+*.html linguist-vendored
+*.min.css linguist-generated
+
+Cargo.lock linguist-generated
+*.astro linguist-detectable
